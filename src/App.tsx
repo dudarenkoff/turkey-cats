@@ -34,7 +34,7 @@ function App() {
     }
   }
 
-  const dateStart = new Date(2022, 2, 5, 10, 0, 10)
+  const dateStart = new Date(2022, 2, 5, 12, 42, 0)
 
   useEffect(() => {
     const interval = setInterval(() => {
