@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/turkey-cats/static/css/main.a4baa675.css",
+    "main.js": "/turkey-cats/static/js/main.4c5b9e18.js",
+    "static/js/787.3fd65164.chunk.js": "/turkey-cats/static/js/787.3fd65164.chunk.js",
+    "index.html": "/turkey-cats/index.html",
+    "main.a4baa675.css.map": "/turkey-cats/static/css/main.a4baa675.css.map",
+    "main.4c5b9e18.js.map": "/turkey-cats/static/js/main.4c5b9e18.js.map",
+    "787.3fd65164.chunk.js.map": "/turkey-cats/static/js/787.3fd65164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4baa675.css",
+    "static/js/main.4c5b9e18.js"
+  ]
+}
