@@ -38,8 +38,7 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const dateEnd = new Date()
-      const timer = getDifferenceTime(dateStart, dateEnd)
+      const timer = getDifferenceTime(dateStart, new Date())
       setTimer(timer)
     }, 1000);
 
@@ -48,15 +47,16 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <main>
         <h1>Как долго кiты в Турции:</h1>
-        <p>
-          дней: <b>{timer.days}</b>&nbsp;
-          часов: <b>{timer.hours}</b>&nbsp;
-          минут: <b>{timer.minutes}</b>&nbsp;
-          секунд: <b>{timer.seconds}</b>&nbsp;
-        </p>
-      </header>
+        
+        <div className="App__container container">
+          <p>дней: <b>{timer.days}</b></p>
+          <p>часов: <b>{timer.hours}</b></p>
+          <p>минут: <b>{timer.minutes}</b></p>
+          <p>секунд: <b>{timer.seconds}</b></p>
+        </div>
+      </main>
     </div>
   )
 }
