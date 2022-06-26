@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import './App.css';
+import './App.scss'
+import logo from './logo.png'
 
 interface Timer {
   days: number
@@ -47,16 +48,33 @@ function App() {
 
   return (
     <div className="App">
-      <main>
-        <h1>Как долго кiты в Турции:</h1>
-        
-        <div className="App__container container">
-          <p>дней: <b>{timer.days}</b></p>
-          <p>часов: <b>{timer.hours}</b></p>
-          <p>минут: <b>{timer.minutes}</b></p>
-          <p>секунд: <b>{timer.seconds}</b></p>
+      <div className="App__container container">
+        <img className="container__image" src={logo} alt="кiты в Турции в лого"/>
+
+        <h1 className="container__title">Как долго кiты в Турции:</h1>
+
+        <div className="container__wrap">
+          <div className="container__element">
+            <h2 className="container__sub-title">{timer.days}</h2>
+            <h4 className="container__description">дней</h4>
+          </div>
+
+          <div className="container__element">
+            <h2 className="container__sub-title">{timer.hours}</h2>
+            <h4 className="container__description">часов</h4>
+          </div>
+
+          <div className="container__element">
+            <h2 className="container__sub-title">{timer.minutes}</h2>
+            <h4 className="container__description">минут</h4>
+          </div>
+
+          <div className="container__element">
+            <h2 className="container__sub-title">{timer.seconds}</h2>
+            <h4 className="container__description">секунд</h4>
+          </div>
         </div>
-      </main>
+      </div>
     </div>
   )
 }
