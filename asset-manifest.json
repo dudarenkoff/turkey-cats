@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/turkey-cats/static/css/main.0e469808.css",
-    "main.js": "/turkey-cats/static/js/main.2ec4f512.js",
-    "static/js/787.3fd65164.chunk.js": "/turkey-cats/static/js/787.3fd65164.chunk.js",
+    "main.css": "/turkey-cats/static/css/main.f3fe27f1.css",
+    "main.js": "/turkey-cats/static/js/main.1987137a.js",
+    "static/js/27.8ed68f97.chunk.js": "/turkey-cats/static/js/27.8ed68f97.chunk.js",
     "static/media/logo.png": "/turkey-cats/static/media/logo.2c563073fe8c9461225d.png",
-    "index.html": "/turkey-cats/index.html",
-    "main.0e469808.css.map": "/turkey-cats/static/css/main.0e469808.css.map",
-    "main.2ec4f512.js.map": "/turkey-cats/static/js/main.2ec4f512.js.map",
-    "787.3fd65164.chunk.js.map": "/turkey-cats/static/js/787.3fd65164.chunk.js.map"
+    "index.html": "/turkey-cats/index.html"
   },
   "entrypoints": [
-    "static/css/main.0e469808.css",
-    "static/js/main.2ec4f512.js"
+    "static/css/main.f3fe27f1.css",
+    "static/js/main.1987137a.js"
   ]
 }
